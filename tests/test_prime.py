@@ -53,3 +53,9 @@ def test_8_returns_2_2_2():
     Test that 8 returns 2, 2 and 2.
     """
     assert [number for number in prime_factors(8)] == [[2, 2, 2]]
+
+def test_9_returns_3_3():
+    """
+    Test that 9 returns 3 and 3.
+    """
+    assert [number for number in prime_factors(9)] == [[3, 3]]
