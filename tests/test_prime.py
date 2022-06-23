@@ -35,3 +35,15 @@ def test_3_returns_3():
     Test that 3 returns 3.
     """
     assert [number for number in prime_factors(3)] == [[3]]
+
+def test_4_returns_2_2():
+    """
+    Test that 4 returns 2 and 2.
+    """
+    assert [number for number in prime_factors(4)] == [[2, 2]]
+
+def test_6_returns_2_3():
+    """
+    Test that 6 returns 2 and 3.
+    """
+    assert [number for number in prime_factors(6)] == [[2, 3]]
